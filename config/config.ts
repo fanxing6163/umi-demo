@@ -1,4 +1,4 @@
-import { defineConfig } from 'umi';
+import {defineConfig} from 'umi';
 
 export default defineConfig({
   nodeModulesTransform: {
@@ -7,6 +7,7 @@ export default defineConfig({
   layout: {}, // 开启ant-design-pro布局
   routes: [
     { path: '/', component: '@/pages/index' },
+    { path: '/user', component: '@/pages/user/index' },
   ],
   fastRefresh: {},
-});
+})

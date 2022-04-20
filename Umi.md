@@ -14,7 +14,7 @@
 ```shell
 .
 ├── package.json	包含插件和插件集
-├── .umirc.ts		配置文件，包含 umi 内置功能和插件的配置。或者是config/config.js文件二选一
+├── .umirc.ts		配置文件，包含 umi 内置功能和插件的配置。或者是config/config.ts文件二选一，.umirc.ts优先级更高
 ├── .env			环境变量，如 PORT=8888 COMPRESS=none
 ├── dist
 ├── mock			目录下所有 js 和 ts 文件会被解析为 mock 文件
